@@ -1,10 +1,10 @@
 # UX Research Planner
 
-A [Claude Code](https://claude.ai/code) skill for building complete, executable UX research plans. Works module by module, with a validation checkpoint at every stage.
+A [Claude Code](https://claude.ai/code) skill for building complete, executable UX research plans. Acts as a research partner — asking focused questions at every stage, waiting for your direction, and only building once alignment is confirmed.
 
 ## What it does
 
-The skill acts as a senior UX research strategist. Give it a product and a problem statement, and it walks you through the full planning process. Every output can be handed directly to a team and executed without ambiguity.
+The skill acts as a senior UX research strategist and thinking partner. Give it a product and a problem statement, and it asks focused questions at every stage — waiting for your input before generating anything. Every output can be handed directly to a team and executed without ambiguity.
 
 **Primary framework:** OMSEP (Objectives, Methodology, Scope, Essentials, Protocol)
 
@@ -22,7 +22,7 @@ It also supports alternative frameworks and handles partial requests like "I jus
 | 6 | **Protocol** | Full moderator discussion guide with bias-checked questions |
 | 7 | **Recruitment Plan** | User group profiles, participant counts, recruitment methods, and edge cases |
 | 8 | **Screeners** | Screener questions per group with accept/reject tags and a rejection message |
-| 9 | **Package** | Compiles everything into in-conversation text or downloadable Word document(s) |
+| 9 | **Package** | Compiles everything into in-conversation text, Markdown (.md), HTML (.html), or Word (.docx) |
 
 ## How to use it
 
@@ -47,7 +47,7 @@ Or just describe your product and what you're trying to learn. The skill will pi
 
 **Partial requests.** You don't have to start from scratch. Ask for just the screeners, just the discussion guide, or just the recruitment plan. The skill asks only the minimum context needed and offers to continue with the full plan afterward.
 
-**Output flexibility.** Receive outputs as in-conversation text, downloadable Word document(s), or both. Word documents can be a single master file or separate files per module for distribution to different team members.
+**Output flexibility.** Receive outputs as in-conversation text, Markdown (.md), HTML (.html), or Word (.docx). Word documents can be a single master file or separate files per module for distribution to different team members.
 
 **Constraint-aware.** All recommendations adapt to your budget, timeline, team size, geography, and available tools.
 
